@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { chatCompletion, streamChatCompletion } from '../services/groqApi';
 import './GroqChat.css';
 

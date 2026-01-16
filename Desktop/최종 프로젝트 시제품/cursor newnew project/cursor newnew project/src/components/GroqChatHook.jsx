@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useGroqChat } from '../hooks/useGroqChat';
 import './GroqChat.css';
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import GroqChat from './components/GroqChat';
 
 function App() {
