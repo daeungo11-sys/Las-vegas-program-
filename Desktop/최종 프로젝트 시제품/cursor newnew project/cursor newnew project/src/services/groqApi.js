@@ -3,6 +3,7 @@ import Groq from 'groq-sdk';
 // Groq 클라이언트 초기화
 const groq = new Groq({
   apiKey: import.meta.env.VITE_GROQ_API_KEY || process.env.VITE_GROQ_API_KEY,
+  dangerouslyAllowBrowser: true,
 });
 
 /**
